@@ -1,0 +1,41 @@
+/*Main Style*/
+body { background-color: #111111; margin-top: -60px;}
+@font-face {font-family:'minimalhard2'; src:url(source/mh2_.ttf) format('truetype');}
+
+#logo_type{top:20px; left:4%; z-index: 3; position: fixed;}
+#logoSpread{font-family: "minimalhard2"; font-weight: bolder; font-size: 1.0vw; position: fixed; color: white; z-index: 3; top: 25px; padding: 0.1vw 2vw 0.1vw 0.1vw; opacity: 0; left: 6%; visibility: hidden; transition: all 0.15s ease-in; width:400px; }
+#logo_type:hover #logoSpread {opacity: 1; left: 7%; visibility: visible;}
+
+#nav_menu{position: fixed; margin-top: 84px;}
+#nav_menu {margin-left: 73%; z-index: 3;}
+#nav_menu tr {color:white;}
+#nav_menu tr th {font-family: "minimalhard2"; font-weight: lighter; font-size: 1.0vw; padding: 0.1vw 2vw 0.1vw 0.1vw;}
+svg {margin-top: 60px; position: fixed; z-index: 2; left:-8px;}
+
+#nav_menu tr > #menu1:hover #sub-menu {opacity: 1; visibility: visible;}
+#sub-menu {position: absolute; background: #222222; opacity: 0; visibility: hidden; transition: all 0.15s ease-in; font-family: "Noto Serif KR", serif; font-size: 0.8vw;}
+#sub-menu > li {padding: 20px 25px; border-bottom: 1px solid #222222;}
+#sub-menu > li >  a {color: rgba(255,255,255,0.6); text-decoration: none;}
+
+#intro{display:block; position:relative; margin:auto; top:20px; width: 100%; z-index: 0;}
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:-50px; width: 600px; margin:auto; position: relative; text-align: center;}
+#introduction{font-family: "Noto Serif KR", serif; font-size:2.2vw; color: #cccccc; top:5vw; margin:auto; left: 2%; position: absolute; text-align: left; line-height:1.6; animation: move1 2s forwards;}
+
+@keyframes move1 {
+  0%{left: -15%;}
+  100%{left: 2%;}
+}
+
+#saying{font-family: "Noto Serif KR", serif; font-size:0.6vw; opacity: 0; color: #999999; top:17vw; margin:auto; left: 2.1%; position: absolute; text-align: left; line-height:1.8; animation: move2 2s 2s forwards;}
+
+@keyframes move2 {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+#whatccp{font-family: "Noto Serif KR", serif; font-size:1vw; opacity: 0; color: #cccccc; top:43vw; left: 89%; position: fixed; text-align: left; border-bottom: 0.5px solid gray; animation: move3 2s 3s forwards;}
+
+@keyframes move3 {
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
