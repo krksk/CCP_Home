@@ -27,7 +27,7 @@ svg {top: 0px; position: fixed; z-index: 10; left:-8px;}
 
 
 #intro{display:block; position:relative; margin:auto; top:0px; width: 100.8%; left: -0.5%; z-index: 0;}
-#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:-50px; width: 600px; margin:auto; position: relative; text-align: center;}
+#footer{font-family: "Noto Serif KR", serif; display: block; font-size:14px; color: white; top:100px; width: 600px; height:60px; margin:auto; position: relative; text-align: center;}
 #introduction{font-family: "Noto Serif KR", serif; font-size:2.2vw; color: #cccccc; top:5vw; margin:auto; left: 2%; position: absolute; text-align: left; line-height:1.6; animation: move1 2s forwards;}
 
 @keyframes move1 {
